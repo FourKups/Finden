@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_70sdp"
+    android:background="@drawable/buttondialog"
+    android:orientation="vertical"
+    android:padding="@dimen/_10sdp"
+    android:layout_margin="@dimen/_30sdp"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A Product Of"
+            android:textSize="20sp"
+            android:fontFamily="@font/cabin"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_name"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Vist Us:"
+            android:fontFamily="@font/cabin"
+            android:layout_marginRight="2dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/link"
+            android:fontFamily="@font/cabin"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorLink="#8645FF"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/feedback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feedback"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:fontFamily="@font/cabin"
+            android:background="@drawable/buttondialog"/>
+    </LinearLayout>
+
+
+</LinearLayout>
